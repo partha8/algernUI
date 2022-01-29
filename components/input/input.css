@@ -1,0 +1,31 @@
+@import "../../docSite/docs.css";
+@import "../button/button.css";
+
+.input,
+.textarea {
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  width: fit-content;
+}
+
+.warning {
+  border: 2px solid var(--clr-yellow);
+}
+
+.success {
+  border: 2px solid var(--clr-green);
+}
+
+.error {
+  border: 2px solid var(--clr-red);
+}
