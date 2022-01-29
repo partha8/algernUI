@@ -1,0 +1,17 @@
+@import "../../docSite/docs.css";
+
+.responsive-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.round-image-container {
+  width: 20%;
+}
+
+.round-image {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  width: 100%;
+}
