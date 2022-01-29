@@ -8,6 +8,7 @@
   z-index: 0;
   overflow: auto;
 }
+
 .container__components {
   padding: 1rem;
   margin-bottom: 1rem;
@@ -20,16 +21,19 @@
   gap: var(--gap);
   border: 1px solid var(--clr-grey-50);
 }
+
 .center {
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 800px) {
   .container {
     left: 0;
     width: 100%;
   }
 }
+
 .container__code {
   max-width: 60rem;
   overflow: auto;

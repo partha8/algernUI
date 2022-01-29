@@ -12,6 +12,7 @@
   --fluid-width: 90vw;
   --gap: 12px;
 }
+
 *,
 ::after,
 ::before {
@@ -25,6 +26,7 @@ body {
   height: 100vh;
   z-index: 0;
 }
+
 body.landing-page {
   background: var(--clr-off-white);
 }
@@ -35,11 +37,13 @@ body.landing-page {
   padding: 0 2.4rem;
   z-index: 1;
 }
+
 .header__container {
   display: flex;
   align-items: center;
   height: 4.5rem;
 }
+
 .header__buttons {
   display: flex;
   justify-content: center;
@@ -47,30 +51,36 @@ body.landing-page {
   margin-left: auto;
   gap: 4rem;
 }
+
 .doc,
 .github {
   color: var(--clr-blue-dark);
   margin: 1.75rem 0;
 }
+
 .doc:hover,
 .github:hover {
   border-bottom: 1px solid var(--clr-blue-primary);
 }
+
 .header__logo {
   color: var(--clr-blue-dark);
 }
+
 .header-logo {
   font-weight: bolder;
   text-transform: none;
   letter-spacing: 8px;
   margin: 1.75rem 0;
 }
+
 .header__toggle {
   display: none;
   color: var(--clr-blue-dark);
   cursor: pointer;
   transition: var(--transition);
 }
+
 @media (max-width: 800px) {
   .header__toggle {
     display: block;
@@ -98,6 +108,7 @@ body.landing-page {
   height: calc(100vh - 4.5rem);
   justify-content: center;
 }
+
 .btn {
   background: none;
   border: none;
@@ -107,14 +118,17 @@ body.landing-page {
   color: var(--clr-white);
   text-align: center;
 }
+
 .btn-container {
   display: flex;
   gap: 1rem;
 }
+
 .get-started-btn,
 .github-btn {
   font-size: 1.3rem;
 }
+
 .primary-solid-btn {
   background: var(--clr-blue-primary);
 }
@@ -145,16 +159,19 @@ body.landing-page {
     width: 70vw;
   }
 }
+
 @media (max-width: 1000px) {
   .hero {
     width: 80vw;
   }
 }
+
 @media (max-width: 800px) {
   .hero {
     width: 90vw;
   }
 }
+
 .standout {
   text-decoration: underline;
 }

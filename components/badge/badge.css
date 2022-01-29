@@ -1,52 +1,58 @@
 @import "../../docSite/docs.css";
 @import "../avatar/avatar.css";
 
-/* .badge__container {
-  border: 1px solid black;
-  display: flex;
-} */
+
 .badge {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   position: absolute;
 }
+
 .badge__container {
   position: relative;
 }
+
 .badge-xxl {
   height: 1.1rem;
   width: 1.1rem;
   bottom: 15px;
   right: 15px;
 }
+
 .badge-xl {
   height: 0.8rem;
   width: 0.8rem;
   bottom: 12px;
   right: 12px;
 }
+
 .badge-l {
   height: 0.6rem;
   width: 0.6rem;
   bottom: 9px;
   right: 6px;
 }
+
 .badge-standard {
   height: 0.5rem;
   width: 0.5rem;
   bottom: 7px;
   right: 2px;
 }
+
 .busy {
   background: var(--clr-red);
 }
+
 .online {
   background: var(--clr-green);
 }
+
 .unavailable {
   background: var(--clr-grey-80);
 }
+
 .badge__container .iconify {
   border-radius: 50%;
   background: var(--clr-grey-20);
