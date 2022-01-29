@@ -1,0 +1,164 @@
+/* @import "../../style.css"; */
+@import "../../docSite/docs.css";
+
+.btn-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: var(--borderRadius);
+  color: var(--clr-white);
+  width: fit-content;
+  /* min-width: 8rem; */
+  text-align: center;
+  font-size: 1rem;
+}
+/* Solid Button */
+.primary-solid-btn {
+  background: var(--clr-blue-primary);
+}
+.primary-solid-btn:hover {
+  background: var(--clr-blue-tint1);
+}
+.primary-solid-btn:active {
+  background: var(--clr-blue-primary);
+}
+.selected-solid-btn {
+  background: var(--clr-blue-dark);
+}
+.secondary-solid-btn {
+  background: var(--clr-grey-40);
+  color: var(--clr-grey-900);
+}
+.secondary-solid-btn:hover {
+  background: var(--clr-grey-50);
+}
+.secondary-solid-btn:active {
+  background: var(--clr-grey-40);
+}
+.danger-solid-btn {
+  background: var(--clr-red);
+}
+.danger-solid-btn:hover {
+  background: var(--clr-red-tint1);
+}
+.danger-solid-btn:active {
+  background: var(--clr-red);
+}
+.warning-solid-btn {
+  background: var(--clr-yellow);
+  color: var(--clr-grey-900);
+}
+.warning-solid-btn:hover {
+  background: var(--clr-yellow-tint1);
+}
+.warning-solid-btn:active {
+  background: var(--clr-yellow);
+}
+.success-solid-btn {
+  background: var(--clr-green);
+}
+.success-solid-btn:hover {
+  background: var(--clr-green-tint1);
+}
+.success-solid-btn:active {
+  background: var(--clr-green);
+}
+
+/* outline button */
+.primary-outline-btn {
+  color: var(--clr-blue-primary);
+  border: 1px solid var(--clr-blue-primary);
+}
+.primary-outline-btn:hover {
+  background: var(--clr-blue-primary);
+  color: var(--clr-white);
+}
+.primary-outline-btn:active {
+  background: none;
+  color: var(--clr-blue-primary);
+  border: 1px solid var(--clr-blue-primary);
+}
+
+.secondary-outline-btn {
+  color: var(--clr-grey-900);
+  border: 1px solid var(--clr-grey-50);
+}
+.secondary-outline-btn:hover {
+  background: var(--clr-grey-50);
+}
+.secondary-outline-btn:active {
+  background: none;
+  color: var(--clr-grey-900);
+  border: 1px solid var(--clr-grey-50);
+}
+
+.danger-outline-btn {
+  color: var(--clr-red);
+  border: 1px solid var(--clr-red);
+  background: none;
+}
+.danger-outline-btn:hover {
+  background: var(--clr-red);
+  color: var(--clr-white);
+}
+.danger-outline-btn:active {
+  color: var(--clr-red);
+  border: 1px solid var(--clr-red);
+  background: none;
+}
+
+.warning-outline-btn {
+  color: var(--clr-yellow);
+  border: 1px solid var(--clr-yellow);
+}
+.warning-outline-btn:hover {
+  background: var(--clr-yellow);
+  color: var(--clr-grey-900);
+}
+.warning-outline-btn:active {
+  color: var(--clr-yellow);
+  background: none;
+}
+
+.success-outline-btn {
+  color: var(--clr-green);
+  border: 1px solid var(--clr-green);
+}
+.success-outline-btn:hover {
+  color: var(--clr-white);
+  background: var(--clr-green);
+}
+.success-outline-btn:active {
+  color: var(--clr-green);
+  background: none;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.btn-float {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  box-shadow: var(--light-shadow);
+}
+.float {
+  z-index: 1000;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+}
