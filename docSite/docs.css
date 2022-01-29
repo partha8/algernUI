@@ -14,6 +14,7 @@
   --gap: 12px;
   --sidebar-width: 16.94rem;
 }
+
 *,
 ::after,
 ::before {
@@ -21,11 +22,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: var(--clr-grey-10);
   height: 100vh;
   z-index: 0;
 }
+
 .highlight {
   background: var(--clr-highlight);
 }
