@@ -1,0 +1,15 @@
+.bottom-gutter-large {
+  margin-bottom: 4rem;
+}
+.bottom-gutter-medium {
+  margin-bottom: 3rem;
+}
+.bottom-gutter-normal {
+  margin-bottom: 2rem;
+}
+.bottom-gutter-small {
+  margin-bottom: 1rem;
+}
+.bottom-gutter-xsmall {
+  margin-bottom: 0.5rem;
+}
