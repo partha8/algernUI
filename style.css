@@ -47,7 +47,6 @@ body.landing-page {
   margin-left: auto;
   gap: 4rem;
 }
-
 .doc,
 .github {
   color: var(--clr-blue-dark);
@@ -60,14 +59,12 @@ body.landing-page {
 .header__logo {
   color: var(--clr-blue-dark);
 }
-
 .header-logo {
   font-weight: bolder;
   text-transform: none;
   letter-spacing: 8px;
   margin: 1.75rem 0;
 }
-
 .header__toggle {
   display: none;
   color: var(--clr-blue-dark);

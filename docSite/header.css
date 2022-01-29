@@ -4,14 +4,12 @@
   background: var(--clr-blue-dark);
   z-index: 100;
 }
-
 .header__container {
   display: flex;
   align-items: center;
   height: 4.5rem;
   justify-content: space-between;
 }
-
 .header__logo {
   color: var(--clr-white);
 }
@@ -21,7 +19,6 @@
   letter-spacing: 8px;
   margin: 1.75rem 0;
 }
-
 .header__toggle {
   display: none;
   color: var(--clr-white);
