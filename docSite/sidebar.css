@@ -40,7 +40,6 @@
 .nav__name {
   font-weight: 500;
 }
-
 @media (max-width: 800px) {
   .nav {
     left: -100%;

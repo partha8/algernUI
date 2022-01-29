@@ -1,0 +1,28 @@
+@import "../../docSite/docs.css";
+
+.container__components {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.avatar-xxl {
+  width: 8rem;
+  height: 8rem;
+}
+.avatar-xl {
+  width: 6rem;
+  height: 6rem;
+}
+.avatar-l {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.avatar-standard {
+  width: 2rem;
+  height: 2rem;
+}
