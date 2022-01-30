@@ -1,10 +1,7 @@
 @import "../../docSite/docs.css";
 @import "../avatar/avatar.css";
 
-
 .badge {
-  width: 10px;
-  height: 10px;
   border-radius: 50%;
   position: absolute;
 }
@@ -53,7 +50,22 @@
   background: var(--clr-grey-80);
 }
 
-.badge__container .iconify {
-  border-radius: 50%;
-  background: var(--clr-grey-20);
+.icon__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.icon-badge {
+  background: var(--clr-red);
+  color: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  top: -3px;
+  right: -5px;
 }
