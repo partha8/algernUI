@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 .header {
   width: 100%;
   padding: 0 2.4rem;
@@ -17,6 +19,7 @@
 }
 
 .header-logo {
+  font-family: 'Source Code Pro', monospace;
   font-weight: bolder;
   text-transform: none;
   letter-spacing: 8px;
