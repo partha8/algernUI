@@ -1,6 +1,7 @@
 @import "./components/typography.css";
 @import "./components/utilities.css";
 @import "./components/color.css";
+@import './components/button/button.css';
 
 :root {
   --transition-one: all 0.3s linear;
@@ -33,9 +34,7 @@ body.landing-page {
 
 /* Header styles */
 .header {
-  width: 100%;
-  padding: 0 2.4rem;
-  z-index: 1;
+  background: none;
 }
 
 .header__container {
@@ -67,28 +66,13 @@ body.landing-page {
   color: var(--clr-blue-dark);
 }
 
-.header-logo {
-  font-weight: bolder;
-  text-transform: none;
-  letter-spacing: 8px;
-  margin: 1.75rem 0;
-}
-
 .header__toggle {
-  display: none;
   color: var(--clr-blue-dark);
-  cursor: pointer;
-  transition: var(--transition);
+
 }
 
 @media (max-width: 800px) {
   .header__toggle {
-    display: block;
-    font-size: 1.7em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1.75em 0 0.8em;
     margin-left: auto;
   }
   .header__buttons {
@@ -109,16 +93,6 @@ body.landing-page {
   justify-content: center;
 }
 
-.btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  border-radius: var(--borderRadius);
-  color: var(--clr-white);
-  text-align: center;
-}
-
 .btn-container {
   display: flex;
   gap: 1rem;
@@ -127,31 +101,6 @@ body.landing-page {
 .get-started-btn,
 .github-btn {
   font-size: 1.3rem;
-}
-
-.primary-solid-btn {
-  background: var(--clr-blue-primary);
-}
-.primary-solid-btn:hover {
-  background: var(--clr-blue-tint1);
-}
-.primary-solid-btn:active {
-  background: var(--clr-blue-primary);
-}
-
-.primary-outline-btn {
-  color: var(--clr-blue-primary);
-  border: 1px solid var(--clr-blue-primary);
-}
-.primary-outline-btn:hover {
-  /* border: none; */
-  background: var(--clr-blue-primary);
-  color: var(--clr-white);
-}
-.primary-outline-btn:active {
-  background: none;
-  color: var(--clr-blue-primary);
-  border: 1px solid var(--clr-blue-primary);
 }
 
 @media (max-width: 1200px) {
