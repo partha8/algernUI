@@ -37,3 +37,7 @@
 .dark-shadow {
   box-shadow: var(--dark-shadow);
 }
+
+.underline {
+  border-bottom: 1px solid var(--clr-grey-50);
+}

@@ -14,7 +14,7 @@
   margin-bottom: 1rem;
   background: var(--clr-white);
   height: auto;
-  max-width: 60rem;
+  /* max-width: 60rem; */
   border-radius: var(--borderRadius);
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .container__code {
-  max-width: 60rem;
+  /* max-width: 60rem; */
   overflow: auto;
   max-height: 25rem;
   border-radius: var(--borderRadius);

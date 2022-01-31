@@ -1,7 +1,7 @@
 @import "./components/typography.css";
 @import "./components/utilities.css";
 @import "./components/color.css";
-@import './components/button/button.css';
+@import "./components/button/button.css";
 
 :root {
   --transition-one: all 0.3s linear;
@@ -68,7 +68,6 @@ body {
 
 .header__toggle {
   color: var(--clr-blue-dark);
-
 }
 
 @media (max-width: 800px) {
@@ -77,6 +76,9 @@ body {
   }
   .header__buttons {
     display: none;
+  }
+  h1 {
+    text-align: center;
   }
 }
 

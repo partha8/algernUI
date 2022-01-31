@@ -2,6 +2,7 @@
 @import "./container-components.css";
 @import "./header.css";
 @import "./sidebar.css";
+@import "../components/utilities.css";
 
 :root {
   --transition-one: all 0.3s linear;
