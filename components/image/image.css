@@ -1,5 +1,10 @@
 @import "../../docSite/docs.css";
 
+img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 .responsive-image {
   width: 100%;
   object-fit: contain;

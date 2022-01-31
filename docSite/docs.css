@@ -24,7 +24,7 @@
 }
 
 body {
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-20);
   height: 100vh;
   z-index: 0;
 }

@@ -37,7 +37,7 @@
 .container__code {
   max-width: 60rem;
   overflow: auto;
-  max-height: 15rem;
+  max-height: 25rem;
   border-radius: var(--borderRadius);
   padding: 0;
   font-size: 1rem;
