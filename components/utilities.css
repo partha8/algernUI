@@ -17,3 +17,23 @@
 .bottom-gutter-xsmall {
   margin-bottom: 0.5rem;
 }
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.light-shadow {
+  box-shadow: var(--light-shadow);
+}
+
+.dark-shadow {
+  box-shadow: var(--dark-shadow);
+}

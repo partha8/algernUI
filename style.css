@@ -23,14 +23,14 @@
 }
 
 body {
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-20);
   height: 100vh;
   z-index: 0;
 }
 
-body.landing-page {
+/* body.landing-page {
   background: var(--clr-off-white);
-}
+} */
 
 /* Header styles */
 .header {
