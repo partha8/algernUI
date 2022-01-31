@@ -23,7 +23,6 @@
 }
 
 body {
-  /* background: var(--clr-grey-20); */
   background: var(--gradient-two);
   height: 100vh;
   z-index: 0;
@@ -50,7 +49,6 @@ body {
 
 .doc,
 .github {
-  /* color: var(--clr-blue-dark); */
   color: var(--clr-off-white);
   margin: 1.75rem 0;
 }
@@ -60,13 +58,12 @@ body {
   border-bottom: 1px solid var(--clr-blue-primary);
 }
 
-.header__logo {
-  /* color: var(--clr-blue-dark); */
+.header-logo {
   color: var(--clr-off-white);
 }
 
 .header__toggle {
-  color: var(--clr-blue-dark);
+  color: var(--clr-off-white);
 }
 
 @media (max-width: 800px) {
@@ -86,7 +83,6 @@ body {
   margin: auto;
   padding: 0.5rem;
   width: 60vw;
-  /* color: var(--clr-blue-dark); */
   color: var(--clr-off-white);
   display: flex;
   flex-direction: column;
