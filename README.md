@@ -3,7 +3,7 @@
 <p align="center">
   Fast and lightweight components library to help you create simple, intuitive and beautiful experiences.
   <br>
-  <a href="https://algernui.netlify.app/docsite/docs"><strong>Explore algernUI docs »</strong></a>
+  <a target="__blank" href="https://algernui.netlify.app/docsite/docs"><strong>Explore algernUI docs »</strong></a>
   <br>
 </p>
 
