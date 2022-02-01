@@ -1,8 +1,11 @@
-@import "../style.css";
+
 @import "./container-components.css";
 @import "./header.css";
 @import "./sidebar.css";
 @import "../components/utilities.css";
+@import "../components/typography.css";
+@import "../components/utilities.css";
+@import "../components/color.css";
 
 :root {
   --transition-one: all 0.3s linear;

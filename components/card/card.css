@@ -1,4 +1,4 @@
-@import "../../docSite/docs.css";
+
 @import "../button/button.css";
 @import "../badge/badge.css";
 @import "../image/image.css";
@@ -6,6 +6,8 @@
 
 .cards-component {
   background: var(--clr-grey-40);
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
