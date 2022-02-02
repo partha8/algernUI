@@ -1,4 +1,4 @@
-<h1 align="center">a\AlgernUI</h1>
+<h1 align="center">AlgernUI</h1>
 
 <p align="center">
   Fast and lightweight components library to help you create simple, intuitive and beautiful experiences.
