@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+:root {
+  --transition-one: all 0.3s linear;
+  --transition-two: 0.3s ease-in-out all;
+  --borderRadius: 10px;
+  --letterSpacing: 1px;
+  --max-width: 1120px;
+  --fixed-width: 500px;
+  --fluid-width: 90vw;
+  --gap: 12px;
+  --sidebar-width: 16.94rem;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+>>>>>>> 6ee34743bdb4fd0d871ba8ef7c25498ee6dceb4e
 @import "./typography.css";
 @import "./utilities.css";
 @import "./color.css";
