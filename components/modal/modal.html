@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlgernUI | Image</title>
+    <title>AlgernUI | Modal</title>
     <link rel="stylesheet"
         href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/atom-one-dark.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
     <link rel="stylesheet" href="../../docSite/styles/docs.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
-    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="modal.css">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
 </head>
@@ -52,13 +55,13 @@
                     <a href="../card/card.html" class="nav__link">
                         <span class="nav__name">Card</span>
                     </a>
-                    <a href="#" class="nav__link active">
+                    <a href="../image/image.html" class="nav__link ">
                         <span class="nav__name">Image</span>
                     </a>
-                    <a href="../input/input.html" class="nav__link">
+                    <a href="../input/input.html" class="nav__link ">
                         <span class="nav__name">Input</span>
                     </a>
-                    <a href="../modal/modal.html" class="nav__link">
+                    <a href="#" class="nav__link active">
                         <span class="nav__name">Modal</span>
                     </a>
                     <a href="../rating/rating.html" class="nav__link">
@@ -71,48 +74,43 @@
         </aside>
     </div>
     <div class="container">
-        <h2>Image</h2>
-        <p class="underline">An image is a picture or visual representation of a person or thing.</p>
-        <h3>Responsive Image</h3>
-        <p class="bottom-gutter-small">Add <span class="highlight">responsive-image</span>
-            class to the img tag. The image will grow to 100% width of it's parent container.
-        </p>
-
+        <h2>Modal</h2>
         <div class="container__components">
-            <img class="responsive-image"
-                src="https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?cs=srgb&dl=pexels-baskin-creative-studios-1766838.jpg&fm=jpg"
-                alt="nature">
-        </div>
-        <pre>
-            <code class="container__code" class="html">
-    &lt;div class="..."&gt;
-        &lt;img class="responsive-image" src="..." alt="..." /&gt;
-    &lt;/div&gt;
-            </code>
-        </pre>
+            <div class="modal-container">
+                <h4 class="modal-header">modal header</h4>
+                <p class=" quiet modal-subtitle">modal subtitle</p>
+                <p class="modal-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit explicabo autem
+                    voluptatem accusamus
+                    sapiente, repellat aliquid ullam.</p>
+                <div class="modal-action-btns">
+                    <button class="btn btn-primary-outline action-btn">Action 1</button>
+                    <button class="btn btn-primary-outline action-btn ">Action 2</button>
+                </div>
+                <div class="dismiss absolute"><i class='bx bx-x'></i></div>
 
-        <h3>Round Image</h3>
-        <p class="bottom-gutter-small">Add <span class="highlight">round-image</span> class to the img tag to get a
-            round
-            image which will grow to
-            100% width of it's parent container.</p>
-        <div class="container__components">
-            <div class="round-image-container">
-                <img class="round-image" src="https://images6.alphacoders.com/119/1199914.png" alt="gojo" />
             </div>
         </div>
         <pre>
-            <code class="container__code" class="html">
-    &lt;div class="..."&gt;
-        &lt;img class="round-image" src="..." alt="..." /&gt;
-    &lt;/div&gt; 
+            <code class="container__code html" >
+                <div class="modal-container">
+                    <h4 class="modal-header">modal header</h4>
+                    <p class=" quiet modal-subtitle">modal subtitle</p>
+                    <p class="modal-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit explicabo autem
+                        voluptatem accusamus
+                        sapiente, repellat aliquid ullam.</p>
+                    <div class="modal-action-btns">
+                        <button class="btn btn-primary-outline action-btn">Action 1</button>
+                        <button class="btn btn-primary-outline action-btn ">Action 2</button>
+                    </div>
+                    <div class="dismiss absolute"><i class='bx bx-x'></i></div>
+                </div>
             </code>
         </pre>
-
     </div>
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad()</script>
     <script src="../../docSite/script.js"></script>
+    <script src="../../docSite/highlightsJs.js"></script>
 </body>
 
 </html>
