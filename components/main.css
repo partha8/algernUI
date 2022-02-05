@@ -1,11 +1,11 @@
+@import "./typography.css";
+@import "./utilities.css";
+@import "./color.css";
+
 @import "./alert/alert.css";
 @import "./avatar/avatar.css";
 @import "./badge/badge.css";
 @import "./button/button.css";
-@import './card/card.css';
 @import "./image/image.css";
+@import "./card/card.css";
 @import "./input/input.css";
-
-@import "./typography.css";
-@import "./utilities.css";
-@import "./color.css";
