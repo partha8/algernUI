@@ -147,7 +147,7 @@ You will find the following types of _Image_ on https://algernui.netlify.app/com
 
 ### Input
 
-Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
+Text fields allow users to enter text into a UI. They typically appear in forms and modals.
 
 You will find the following types of _Input_ on https://algernui.netlify.app/components/input/input.html
 
