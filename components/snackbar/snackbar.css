@@ -1,0 +1,32 @@
+@import "../button/button.css";
+
+.snackbar {
+  background: var(--clr-blue-dark);
+  color: var(--clr-grey-10);
+  border-radius: var(--borderRadius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+}
+.snackbar-label {
+  margin: 0;
+}
+.snackbar-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retry-btn {
+  font-size: 1rem;
+  color: var(--clr-yellow);
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-left: 1rem;
+}
+.close-btn {
+  color: var(--clr-grey-10);
+  font-size: 1.1rem;
+  margin-left: 10px;
+}

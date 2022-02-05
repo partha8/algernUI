@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlgernUI | Input</title>
+    <title>AlgernUI | Rating</title>
     <link rel="stylesheet"
         href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/atom-one-dark.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
     <link rel="stylesheet" href="../../docSite/styles/docs.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
-    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="snackbar.css">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
 </head>
@@ -55,7 +58,7 @@
                     <a href="../image/image.html" class="nav__link ">
                         <span class="nav__name">Image</span>
                     </a>
-                    <a href="#" class="nav__link active ">
+                    <a href="../input/input.html" class="nav__link ">
                         <span class="nav__name">Input</span>
                     </a>
                     <a href="../modal/modal.html" class="nav__link">
@@ -67,85 +70,43 @@
                     <a href="../rating/rating.html" class="nav__link">
                         <span class="nav__name">Rating</span>
                     </a>
-                    <a href="../snackbar/snackbar.html" class="nav__link">
+                    <a href="#" class="nav__link active">
                         <span class="nav__name">Snackbar</span>
                     </a>
                 </div>
         </aside>
     </div>
     <div class="container">
-        <h2>Input</h2>
-        <p class="underline">Text fields allow users to enter text into a UI. They typically appear in forms and
-            modals.</p>
-        <h3>Default Input Box with a required field</h3>
+        <h2>Snackbar</h2>
         <div class="container__components">
-            <form>
-                <label for="name">First Name</label>
-                <input class="input" type="name" id="name" name="name">
-                <label for="email">Email Id*</label>
-                <input class="input" type="email" id="email" name="email" required>
-                <button class="btn btn-primary-solid">Submit</button>
-            </form>
+            <div class="snackbar">
+                <p class="snackbar-label">Can't send photo. Retry in 5 seconds</p>
+                <div class="snackbar-actions">
+                    <button class="btn retry-btn">RETRY</button>
+                    <button class="btn">
+                        <span class="iconify close-btn" data-icon="ic:round-close" data-inline="false"></span>
+                    </button>
+                </div>
+            </div>
         </div>
         <pre>
-            <code class="container__code" class="html">
-    &lt;form&gt;
-        &lt;label for="name"&gt;First Name&lt;/label&gt;
-        &lt;input class="input" type="name" id="name" name="name"&gt;
-
-        &lt;label for="email"&gt;Email Id*&lt;/label&gt;
-        &lt;input class="input" type="email" id="email" name="email" required&gt; 
-
-        &lt;button class="btn btn-primary-solid"&gt;Submit&lt;/button&gt;
-    &lt;/form&gt;
-            </code>
-        </pre>
-        <h3>Default Textarea</h3>
-        <div class="container__components">
-            <form>
-                <label for="desc">Description</label>
-                <textarea class="textarea" name="desc" id="desc" rows="5"></textarea>
-                <button class="btn btn-primary-solid">Submit</button>
-            </form>
-        </div>
-        <pre>
-            <code class="container__code" class="html">
-    &lt;form&gt;
-        &lt;label for="desc"&gt;Description&lt;/label&gt;
-        &lt;textarea class="textarea" id="desc" name="desc" rows="5"&gt;&lt;/textarea&gt;
-
-        &lt;button class="btn btn-primary-solid"&gt;Submit&lt;/button&gt;
-    &lt;/form&gt;
-            </code>
-        </pre>
-
-        <h3>Different validation styles</h3>
-        <div class="container__components">
-            <label for="label">Label</label>
-            <input class="input warning" type="text">
-            <label for="label">Label</label>
-            <input class="input success" type="text">
-            <label for="label">Label</label>
-            <input class="input error" type="text">
-        </div>
-        <pre>
-            <code class="container__code" class="html">
-    &lt;form&gt;
-        &lt;label for="label"&gt;Label&lt;/label&gt;
-        &lt;input class="input warning" type="text"&gt;
-
-        &lt;label for="label"&gt;Label&lt;/label&gt;
-        &lt;input class="input success" type="text"&gt;
-
-        &lt;label for="label"&gt;Label&lt;/label&gt;
-        &lt;input class="input error" type="text"&gt;
-    &lt;/form&gt;
+            <code class="container__code html" >
+                <div class="snackbar">
+                    <p class="snackbar-label" >Can't send photo. Retry in 5 seconds</p>
+                    <div class="snackbar-actions">
+                        <button class="btn retry-btn">RETRY</button>
+                        <button class="btn">
+                            <span class="iconify close-btn" data-icon="ic:round-close" data-inline="false"></span>
+                        </button>
+                    </div>
+                </div>
             </code>
         </pre>
     </div>
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad()</script>
     <script src="../../docSite/script.js"></script>
+    <script src="../../docSite/highlightsJs.js"></script>
 </body>
 
 </html>
