@@ -1,0 +1,46 @@
+.topbar {
+  width: 100%;
+  padding: 0 2.4rem;
+  background: var(--clr-blue-dark);
+  z-index: 100;
+}
+
+.topbar-container {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  justify-content: space-between;
+}
+
+.topbar__logo {
+  color: var(--clr-white);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.toggle {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar-logo {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bolder;
+  text-transform: none;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+.topbar-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-grey-10);
+}
+.icon {
+  font-size: 1.2rem;
+  margin-left: 0.75rem;
+  cursor: pointer;
+}
