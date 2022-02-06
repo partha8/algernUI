@@ -14,7 +14,7 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="grid.css">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
 </head>
@@ -55,7 +55,7 @@
                     <a href="../card/card.html" class="nav__link">
                         <span class="nav__name">Card</span>
                     </a>
-                    <a href="../grid/grid.html" class="nav__link">
+                    <a href="#" class="nav__link active">
                         <span class="nav__name">Grid</span>
                     </a>
                     <a href="../image/image.html" class="nav__link ">
@@ -67,7 +67,7 @@
                     <a href="../modal/modal.html" class="nav__link">
                         <span class="nav__name">Modal</span>
                     </a>
-                    <a href="#" class="nav__link active">
+                    <a href="../navbar/navbar.html" class="nav__link">
                         <span class="nav__name">Navbar</span>
                     </a>
                     <a href="../rating/rating.html" class="nav__link">
@@ -83,40 +83,58 @@
         </aside>
     </div>
     <div class="container">
-        <h2>Navbar/Topbar</h2>
+        <h2>Grid</h2>
+        <h3>Two items in a grid</h3>
         <div class="container__components">
-            <nav class="topbar">
-                <div class="topbar-container">
-                    <a href="#" class="topbar__logo">
-                        <i class="bx bx-menu toggle"></i>
-                        <h4 class="topbar-logo">Logo</h4>
-                    </a>
-                    <div class="topbar-buttons">
-                        <span class="iconify icon" data-icon="ic:round-download" data-inline="false"></span>
-                        <span class="iconify icon" data-icon="ic:round-print" data-inline="false"></span>
-                        <span class="iconify icon" data-icon="ic:round-bookmark" data-inline="false"></span>
-                    </div>
-                </div>
-            </nav>
+            <div class="grid grid-2">
+                <div class="grid-child">1</div>
+                <div class="grid-child">2</div>
+            </div>
         </div>
         <pre>
             <code class="container__code html" >
-                <nav class="topbar">
-                    <div class="topbar-container">
-                        <a href="#" class="topbar__logo">
-                            <i class="bx bx-menu toggle"></i>
-                            <h4 class="topbar-logo">Logo</h4>
-                        </a>
-                        <div class="topbar-buttons">
-                            <span class="iconify icon" data-icon="ic:round-download" data-inline="false"></span>
-                            <span class="iconify icon" data-icon="ic:round-print" data-inline="false"></span>
-                            <span class="iconify icon" data-icon="ic:round-bookmark" data-inline="false"></span>
-                        </div>
-                    </div>
-                </nav>
+                <div class="grid grid-2">
+                    <div class="grid-child">1</div>
+                    <div class="grid-child">2</div>
+                </div>
             </code>
         </pre>
+        <h3>Three items in a grid</h3>
+        <div class="container__components">
+            <div class="grid grid-3">
+                <div class="grid-child">1</div>
+                <div class="grid-child">2</div>
+                <div class="grid-child">3</div>
 
+            </div>
+        </div>
+        <pre>
+            <code class="container__code html" >
+                <div class="grid grid-3">
+                    <div class="grid-child">1</div>
+                    <div class="grid-child">2</div>
+                    <div class="grid-child">3</div>
+                </div>
+            </code>
+        </pre>
+        <h3>2-1 grid</h3>
+        <p>Every third element will span the whole column</p>
+        <div class="container__components">
+            <div class="grid grid-2-1">
+                <div class="grid-child two-one-child">1</div>
+                <div class="grid-child two-one-child">2</div>
+                <div class="grid-child two-one-child">3</div>
+            </div>
+        </div>
+        <pre>
+            <code class="container__code html" >
+                <div class="grid grid-2-1">
+                    <div class="grid-child two-one-child">1</div>
+                    <div class="grid-child two-one-child">2</div>
+                    <div class="grid-child two-one-child">3</div>
+                </div>
+            </code>
+        </pre>
     </div>
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad()</script>

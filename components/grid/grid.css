@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2-1 {
+  grid-template-columns: repeat(2, 1fr);
+}
+/* .grid-child.grid-2-1:nth-child(3) {
+  grid-column: span 1/-1;
+} */
+
+.two-one-child:nth-child(3){
+    grid-column: span 2;
+}
+
+.grid-child {
+  border: 1px solid black;
+  text-align: center;
+  background: var(--clr-grey-20);
+}
