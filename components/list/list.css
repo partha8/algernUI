@@ -1,0 +1,52 @@
+@import "../utilities.css";
+
+.container__components {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.unordered-list-circle {
+  list-style-type: circle;
+}
+
+.unordered-list-disc {
+  list-style-type: disc;
+}
+
+.unordered-list-square {
+  list-style-type: square;
+}
+
+.ordered-list-lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.ordered-list-upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.ordered-list-upper-roman {
+  list-style-type: upper-roman;
+}
+.ordered-list-lower-roman {
+  list-style-type: lower-roman;
+}
+
+.stacked {
+  background: var(--clr-grey-20);
+}
+.stacked ul {
+  width: 100%;
+  text-align: center;
+}
+.item {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: var(--transition-one);
+  border-bottom: 1px solid var(--clr-grey-40);
+}
+.item:hover{
+    background: var(--clr-grey-50);
+}
