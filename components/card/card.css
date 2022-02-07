@@ -1,4 +1,3 @@
-
 @import "../button/button.css";
 @import "../badge/badge.css";
 @import "../image/image.css";
@@ -47,6 +46,28 @@ p {
 
 .image-container-hz {
   width: 18rem;
+}
+
+.wishlist-icon-hz,
+.wishlist-icon-vert {
+  position: absolute;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--clr-white);
+}
+.wishlist-icon-hz {
+  bottom: 0.5rem;
+  left: 9rem;
+}
+
+.wishlist-icon-vert {
+  top: 16rem;
+  right: 1rem;
+}
+
+.wishlist-icon-hz:hover,
+.wishlist-icon-vert:hover {
+  color: var(--clr-red);
 }
 
 .text-btn-container {
