@@ -72,9 +72,15 @@ p {
 
 .text-btn-container {
   width: 100%;
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
+}
+.text-container {
+  padding: 0.5rem;
+}
+
+.card__horizontal .btn-container {
+  padding: 0.5rem;
 }
 
 .card-title {
@@ -84,11 +90,15 @@ p {
 .cta-btn {
   margin-top: auto;
   justify-content: space-evenly;
-  margin-bottom: 0.5rem;
 }
 
 .cta-btn a {
   font-size: 0.8rem;
+  border-radius: 0;
+}
+
+.card__vertical .cta-btn a {
+  width: 100%;
 }
 
 .card-badge {
@@ -110,6 +120,7 @@ p {
   height: 100%;
   opacity: 0.5;
 }
+
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -118,6 +129,7 @@ p {
   text-align: center;
   color: var(--clr-red);
 }
+
 .text-overlay h3 {
   font-weight: 900;
   letter-spacing: 5px;
@@ -138,6 +150,7 @@ p {
   width: 18rem;
   position: relative;
 }
+
 .image-container-vert {
   width: 100%;
   height: 18rem;
