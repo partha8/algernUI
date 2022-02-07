@@ -41,3 +41,14 @@
 .underline {
   border-bottom: 1px solid var(--clr-grey-50);
 }
+
+.m-l-p5{
+  margin-left: 0.5rem;
+}
+.m-r-p5{
+  margin-right: 0.5rem;
+}
+
+.m-lr-1{
+  margin: 0 1rem;
+}
