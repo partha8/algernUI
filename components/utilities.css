@@ -42,6 +42,10 @@
   border-bottom: 1px solid var(--clr-grey-50);
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .m-l-p5 {
   margin-left: 0.5rem;
 }
