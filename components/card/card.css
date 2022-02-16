@@ -15,10 +15,10 @@
 }
 
 .card h3,
-h4,
-h5,
-h6,
-p {
+.card h4,
+.card h5,
+.card h6,
+.card p {
   margin: 0;
 }
 

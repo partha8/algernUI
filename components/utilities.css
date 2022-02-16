@@ -1,21 +1,24 @@
-.bottom-gutter-large {
-  margin-bottom: 4rem;
-}
-
-.bottom-gutter-medium {
-  margin-bottom: 3rem;
-}
-
-.bottom-gutter-normal {
-  margin-bottom: 2rem;
-}
-
-.bottom-gutter-small {
+.margin-bottom-1 {
   margin-bottom: 1rem;
 }
 
-.bottom-gutter-xsmall {
-  margin-bottom: 0.5rem;
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-left-p5 {
+  margin-left: 0.5rem;
+}
+.margin-right-p5 {
+  margin-right: 0.5rem;
+}
+
+.margin-lr-1 {
+  margin: 0 1rem;
 }
 
 .relative {
@@ -42,21 +45,6 @@
   border-bottom: 1px solid var(--clr-grey-50);
 }
 
-.m-0 {
-  margin: 0;
-}
-
-.m-l-p5 {
-  margin-left: 0.5rem;
-}
-.m-r-p5 {
-  margin-right: 0.5rem;
-}
-
-.m-lr-1 {
-  margin: 0 1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -65,6 +53,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.normal-text {
+  font-weight: normal;
 }
 
 .bold-text {
