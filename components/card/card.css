@@ -27,7 +27,7 @@
   height: 100%;
 }
 
-.card__text-only {
+.card-text-only {
   width: 20rem;
   padding: 1rem;
   text-align: justify;
@@ -37,7 +37,7 @@
   margin-bottom: 0.5rem;
 }
 
-.card__horizontal {
+.card-horizontal {
   display: flex;
   width: 30rem;
   max-height: 12rem;
@@ -79,7 +79,7 @@
   padding: 0.5rem;
 }
 
-.card__horizontal .btn-container {
+.card-horizontal .btn-container {
   padding: 0.5rem;
 }
 
@@ -97,7 +97,7 @@
   border-radius: 0;
 }
 
-.card__vertical .cta-btn a {
+.card-vertical .cta-btn a {
   width: 100%;
 }
 
@@ -112,21 +112,12 @@
   border-bottom-right-radius: var(--borderRadius);
 }
 
-.overlay {
+.text-overlay {
+  background: rgba(236, 236, 236, 0.45);
   position: absolute;
-  background: var(--clr-grey-30);
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
-}
-
-.text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
   color: var(--clr-red);
 }
 
@@ -142,7 +133,7 @@
   cursor: pointer;
 }
 
-.card__vertical {
+.card-vertical {
   display: flex;
   flex-direction: column;
   justify-content: center;
