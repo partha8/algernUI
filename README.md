@@ -63,8 +63,15 @@ Yes, it's really all you need to get started as you can see in this live and int
 - [Badge](#badge)
 - [Button](#button)
 - [Card](#card)
+- [Grid](#grid)
 - [Image](#image)
 - [Input](#input)
+- [Modal](#modal)
+- [Navbar](#navbar)
+- [Rating](#rating)
+- [Snackbar](#snackbar)
+- [Text Utilities](#text-utilities)
+
 
 ---
 
@@ -134,6 +141,16 @@ You will find the following types of _Card_ on https://algernui.netlify.app/comp
 
 ---
 
+### Grid
+
+You will find the following types of _Grid_ on https://algernui.netlify.app/components/grid/grid.html
+
+- Two items in a grid
+- Three items in a grid
+- 2-1 grid
+
+---
+
 ### Image
 
 An image is a picture or visual representation of a person or thing.
@@ -154,6 +171,54 @@ You will find the following types of _Input_ on https://algernui.netlify.app/com
 - Default Input Box with a required field
 - Default Textarea
 - Different valdation styles
+
+---
+
+### List
+
+You will find the following types of _List_ on https://algernui.netlify.app/components/list/list.html
+
+- Unordered List
+- Ordered List
+- Stacked List
+
+---
+
+### Modal
+
+You will find the _Modal_ on https://algernui.netlify.app/components/modal/modal.html
+
+---
+
+### Navbar
+
+You will find the _Navbar_ on https://algernui.netlify.app/components/navbar/navbar.html
+
+---
+
+### Rating
+
+You will find the _Rating_ on https://algernui.netlify.app/components/rating/rating.html
+
+---
+
+### Snackbar
+
+You will find the _Snackbar_ on https://algernui.netlify.app/components/snackbar/snackbar.html
+
+---
+
+### Text Utilities
+
+You will find the following types of _Text Utilities_ on https://algernui.netlify.app/components/text-utils/textUtils.html
+
+- Headings
+- Lead Paragraph (large text)
+- Normal Paragraph (medium text)
+- Small texts
+- Caption/Subtitle text
+- Blockquote
+- Text align: left, center and right
 
 ---
 
